@@ -1,0 +1,30 @@
+Name:Reverse a Linked List
+Time limit: 1.00 s
+Memory limit: 512 MB
+Problem Statement
+
+Given the head of a singly linked list, reverse the list and return its new head.
+Input
+
+    The first line contains an integer nn (number of nodes in the linked list).
+    The second line contains nn space-separated integers representing the node values.
+
+Output
+
+    Print the reversed linked list in a single line.
+
+Constraints
+
+    1≤n≤10^51≤n≤10^5
+    −10^9≤−10^9≤ node value ≤10^9≤10^9
+
+Example
+
+Input:
+
+5
+1 2 3 4 5
+
+Output:
+
+5 4 3 2 1

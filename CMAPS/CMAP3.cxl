@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>CMAP3</dc:title>
+        <dc:creator>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>University of Houston</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>University of Houston</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>University of Houston</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2025-02-19T17:03:59-06:00</dcterms:created>
+        <dcterms:modified>2025-02-19T17:03:59-06:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:extent>10964 bytes</dc:extent>
+        <dc:source>cmap:2141796QW-W5N53D-1:2141797L9-HTFW22-Z:217KBCB8Y-23YST96-8D</dc:source>
+    </res-meta>
+    <map width="2295" height="844">
+        <concept-list>
+            <concept id="217KDHPWB-31CK28-5JT" label="Doubly: stop at node, route prev to next node and next nodes prev to prev&#xa;delete cu&#xa;->next = np&#xa;->prev = np"/>
+            <concept id="217KCF993-1PPGL45-3NX" label="Text editors may use &#xa;LL to track changes"/>
+            <concept id="217KCCNK9-RLT92S-3L6" label="Some OS use LL for file directories&#xa;(Linux :)"/>
+            <concept id="217KCGH5S-263K1ZB-3QL" label="create a new node and adjust pointers. "/>
+            <concept id="217KC7J5D-1TYXVMH-10X" label="Single pointer called&#xa;next "/>
+            <concept id="217KC5K6G-1WZ49DV-ZN" label="Node are created as need&#xa;@ runtime from the heap"/>
+            <concept id="217KC3BBX-1ZMBLBG-V9" label="Advantages"/>
+            <concept id="217KC304T-RFNM2Y-T4" label="Disadvantages"/>
+            <concept id="217KC7QRC-24MKTWR-11Y" label="Two pointer:&#xa;next and prev"/>
+            <concept id="217KC7XJ2-CBC4BM-12Y" label="The last nodes next pointer &#xa;is towards the head"/>
+            <concept id="217KBGSMD-1GJ5BH6-L8" label="Definition"/>
+            <concept id="217KBGX7N-24067Y2-LV" label="Operations"/>
+            <concept id="217KBGZ6M-1MDJLVT-MB" label="Types"/>
+            <concept id="217KCLZY8-V92J7G-44P" label="- No random access&#xa;- Extra memory for pointer&#xa;- More overhead in traversal"/>
+            <concept id="217KCH7J8-9ZJ0VZ-3TW" label="Sequential and linear search (O(n))"/>
+            <concept id="217KC5FXC-1LJNTNQ-YW" label="Nodes are linearly structured&#xa;requiring traversal"/>
+            <concept id="217KCJ46T-CFD547-3W9" label="Use any algo. Merge sort reigns supreme"/>
+            <concept id="217KCCCKG-MZHYV6-3K4" label="Able to optimize memory &#xa;by allocating and freeing&#xa;programatically"/>
+            <concept id="217KCGY2L-X22GQ1-3SS" label="pointers move through nodes by looking&#xa;at the next pointer (for the next nodes memory &#xa;address)"/>
+            <concept id="217KC424Z-L3VG4B-WQ" label="Applications"/>
+            <concept id="217KC586Q-2CXTKQZ-XW" label=" A node contains the data &#xa;and a pointer to the next&#xa;(or prev) node"/>
+            <concept id="217KCJYB7-1QCK51J-3YB" label="- Dynamic size&#xa;- Efficient Insertions/Deletions&#xa;- Less memory overhead (vs array)"/>
+            <concept id="217KBCV3Y-21DBRD8-8M" label="Linked Lists"/>
+            <concept id="217KCGQFG-1FG038B-3RQ" label="Singly: traverse to one before and reroute cu to cu->next->next&#xa;delete cu"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="217KCGY2P-14KM893-3SW" label="Traversal"/>
+            <linking-phrase id="217KCCNKD-10FTLV3-3L9" label="File System"/>
+            <linking-phrase id="217KCCCKJ-19BD3CZ-3K7" label="Memory"/>
+            <linking-phrase id="217KCF995-232YD6D-3P0" label="Undo/Redo functionality"/>
+            <linking-phrase id="217KC304V-NM2TZ1-T7" label="Pros/Cons"/>
+            <linking-phrase id="217KC586R-1V2V8XR-XZ" label="Node-Based"/>
+            <linking-phrase id="217KCGH5V-1GDNBSK-3QP" label="insertion"/>
+            <linking-phrase id="217KCJ46X-J1F6BF-3WD" label="Sorting"/>
+            <linking-phrase id="217KCGQFJ-27PX56X-3RT" label="deletion"/>
+            <linking-phrase id="217KC7QRD-1X7WBGS-121" label="Doubly"/>
+            <linking-phrase id="217KCH7JB-SJVK5Q-3TZ" label="Searching"/>
+            <linking-phrase id="217KC5K6H-Q48KPZ-ZR" label="Memory Allocation"/>
+            <linking-phrase id="217KC7J5G-150SHTC-110" label="Singly"/>
+            <linking-phrase id="217KC7XJ4-1P3RFQ8-131" label="Circular"/>
+            <linking-phrase id="217KC5FXD-2C247N8-YZ" label="Sequential Data Structure"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="217KDXPCG-1XPSYK5-62K" from-id="217KCLZY8-V92J7G-44P" to-id="217KCGY2L-X22GQ1-3SS"/>
+            <connection id="217KDTGQX-1HDS261-5ZY" from-id="217KC5K6G-1WZ49DV-ZN" to-id="217KCCCKG-MZHYV6-3K4"/>
+            <connection id="217KCH7JC-1SK6KQZ-3V2" from-id="217KBGX7N-24067Y2-LV" to-id="217KCH7JB-SJVK5Q-3TZ"/>
+            <connection id="217KC7QRF-1YL70V2-129" from-id="217KC7QRD-1X7WBGS-121" to-id="217KC7QRC-24MKTWR-11Y"/>
+            <connection id="217KCCNKF-106X1FW-3LK" from-id="217KCCNKD-10FTLV3-3L9" to-id="217KCCNK9-RLT92S-3L6"/>
+            <connection id="217KBGSMH-CKV9Y5-LC" from-id="217KBCV3Y-21DBRD8-8M" to-id="217KBGSMD-1GJ5BH6-L8"/>
+            <connection id="217KBGZ6P-36KPKC-MF" from-id="217KBCV3Y-21DBRD8-8M" to-id="217KBGZ6M-1MDJLVT-MB"/>
+            <connection id="217KC7QRF-88RG3K-124" from-id="217KBGZ6M-1MDJLVT-MB" to-id="217KC7QRD-1X7WBGS-121"/>
+            <connection id="217KDWZBN-JGK1Q3-61Q" from-id="217KCGH5S-263K1ZB-3QL" to-id="217KCJYB7-1QCK51J-3YB"/>
+            <connection id="217KDVVHJ-JG5D8Q-618" from-id="217KCH7J8-9ZJ0VZ-3TW" to-id="217KC5FXC-1LJNTNQ-YW"/>
+            <connection id="217KC7XJ5-1NH4L4C-139" from-id="217KC7XJ4-1P3RFQ8-131" to-id="217KC7XJ2-CBC4BM-12Y"/>
+            <connection id="217KC4251-TV92ZJ-WT" from-id="217KBCV3Y-21DBRD8-8M" to-id="217KC424Z-L3VG4B-WQ"/>
+            <connection id="217KC5FXF-1B5YQH-Z7" from-id="217KC5FXD-2C247N8-YZ" to-id="217KC5FXC-1LJNTNQ-YW"/>
+            <connection id="217KC5K6J-25ZWVPB-ZV" from-id="217KBGSMD-1GJ5BH6-L8" to-id="217KC5K6H-Q48KPZ-ZR"/>
+            <connection id="217KC586S-5FXH7S-Y8" from-id="217KC586R-1V2V8XR-XZ" to-id="217KC586Q-2CXTKQZ-XW"/>
+            <connection id="217KCGH5X-1Y2YWCC-3QZ" from-id="217KCGH5V-1GDNBSK-3QP" to-id="217KCGH5S-263K1ZB-3QL"/>
+            <connection id="217KCJ46Y-JY34M8-3WN" from-id="217KCJ46X-J1F6BF-3WD" to-id="217KCJ46T-CFD547-3W9"/>
+            <connection id="217KCF996-1BF6KJV-3P8" from-id="217KCF995-232YD6D-3P0" to-id="217KCF993-1PPGL45-3NX"/>
+            <connection id="217KCH7JC-20XWCF7-3V7" from-id="217KCH7JB-SJVK5Q-3TZ" to-id="217KCH7J8-9ZJ0VZ-3TW"/>
+            <connection id="217KDXBFG-18RX6QD-626" from-id="217KCGH5S-263K1ZB-3QL" to-id="217KCCCKG-MZHYV6-3K4"/>
+            <connection id="217KBGX7Q-13KF8FP-LY" from-id="217KBCV3Y-21DBRD8-8M" to-id="217KBGX7N-24067Y2-LV"/>
+            <connection id="217KCGH5W-17VQM4S-3QS" from-id="217KBGX7N-24067Y2-LV" to-id="217KCGH5V-1GDNBSK-3QP"/>
+            <connection id="217KC7J5H-7N0GTB-119" from-id="217KC7J5G-150SHTC-110" to-id="217KC7J5D-1TYXVMH-10X"/>
+            <connection id="217KC586S-L9RFJZ-Y2" from-id="217KBGSMD-1GJ5BH6-L8" to-id="217KC586R-1V2V8XR-XZ"/>
+            <connection id="217KDSV4D-1VRQSG2-5V6" from-id="217KC5FXC-1LJNTNQ-YW" to-id="217KC7J5D-1TYXVMH-10X"/>
+            <connection id="217KC304W-TLXC4N-TJ" from-id="217KC304V-NM2TZ1-T7" to-id="217KC304T-RFNM2Y-T4"/>
+            <connection id="217KCJYB9-Z0STS8-3YF" from-id="217KC3BBX-1ZMBLBG-V9" to-id="217KCJYB7-1QCK51J-3YB"/>
+            <connection id="217KCCCKK-BC4MWR-3KJ" from-id="217KCCCKJ-19BD3CZ-3K7" to-id="217KCCCKG-MZHYV6-3K4"/>
+            <connection id="217KCCCKK-1CPH9JG-3KB" from-id="217KC424Z-L3VG4B-WQ" to-id="217KCCCKJ-19BD3CZ-3K7"/>
+            <connection id="217KCGQFK-2C4L9KM-3S2" from-id="217KCGQFJ-27PX56X-3RT" to-id="217KCGQFG-1FG038B-3RQ"/>
+            <connection id="217KC304W-1Y0SHK-TC" from-id="217KBCV3Y-21DBRD8-8M" to-id="217KC304V-NM2TZ1-T7"/>
+            <connection id="217KC3BBZ-2CZWKGH-VD" from-id="217KC304V-NM2TZ1-T7" to-id="217KC3BBX-1ZMBLBG-V9"/>
+            <connection id="217KCGY2Q-1NCZR4C-3T4" from-id="217KCGY2P-14KM893-3SW" to-id="217KCGY2L-X22GQ1-3SS"/>
+            <connection id="217KCLZYC-ZGS2C1-44S" from-id="217KC304T-RFNM2Y-T4" to-id="217KCLZY8-V92J7G-44P"/>
+            <connection id="217KDV5HZ-XQL187-60B" from-id="217KC7QRC-24MKTWR-11Y" to-id="217KDHPWB-31CK28-5JT"/>
+            <connection id="217KC5K6J-BX9B1R-100" from-id="217KC5K6H-Q48KPZ-ZR" to-id="217KC5K6G-1WZ49DV-ZN"/>
+            <connection id="217KCCNKF-1HNV9QF-3LD" from-id="217KC424Z-L3VG4B-WQ" to-id="217KCCNKD-10FTLV3-3L9"/>
+            <connection id="217KC5FXF-1WD07QV-Z2" from-id="217KBGSMD-1GJ5BH6-L8" to-id="217KC5FXD-2C247N8-YZ"/>
+            <connection id="217KDHPWF-4TGYQS-5JX" from-id="217KCGQFJ-27PX56X-3RT" to-id="217KDHPWB-31CK28-5JT"/>
+            <connection id="217KCGY2P-L2575N-3SZ" from-id="217KBGX7N-24067Y2-LV" to-id="217KCGY2P-14KM893-3SW"/>
+            <connection id="217KCF996-102Q12Y-3P3" from-id="217KC424Z-L3VG4B-WQ" to-id="217KCF995-232YD6D-3P0"/>
+            <connection id="217KC7XJ4-239MJ6Z-134" from-id="217KBGZ6M-1MDJLVT-MB" to-id="217KC7XJ4-1P3RFQ8-131"/>
+            <connection id="217KCJ46Y-TV2QTN-3WH" from-id="217KBGX7N-24067Y2-LV" to-id="217KCJ46X-J1F6BF-3WD"/>
+            <connection id="217KC7J5H-14PLNBV-113" from-id="217KBGZ6M-1MDJLVT-MB" to-id="217KC7J5G-150SHTC-110"/>
+            <connection id="217KCGQFK-R57BN0-3RX" from-id="217KBGX7N-24067Y2-LV" to-id="217KCGQFJ-27PX56X-3RT"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="217KDHPWB-31CK28-5JT" x="4140" y="1693" width="502" height="88" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCF993-1PPGL45-3NX" x="2635" y="1963" width="160" height="53" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCCNK9-RLT92S-3L6" x="2319" y="1835" width="242" height="52" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCGH5S-263K1ZB-3QL" x="3831" y="1407" width="278" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC7J5D-1TYXVMH-10X" x="2852" y="1873" width="155" height="50" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC5K6G-1WZ49DV-ZN" x="2500" y="1538" width="187" height="53" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC3BBX-1ZMBLBG-V9" x="3324" y="1500" width="99" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC304T-RFNM2Y-T4" x="3111" y="1347" width="118" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC7QRC-24MKTWR-11Y" x="3060" y="1948" width="112" height="53" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC7XJ2-CBC4BM-12Y" x="3244" y="1853" width="203" height="50" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KBGSMD-1GJ5BH6-L8" x="2833" y="1481" width="87" height="32" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KBGX7N-24067Y2-LV" x="3411" y="1686" width="95" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KBGZ6M-1MDJLVT-MB" x="3046" y="1738" width="59" height="34" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCLZY8-V92J7G-44P" x="3202" y="1199" width="206" height="67" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCH7J8-9ZJ0VZ-3TW" x="3369" y="1989" width="247" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC5FXC-1LJNTNQ-YW" x="2561" y="1319" width="213" height="53" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCJ46T-CFD547-3W9" x="3713" y="1980" width="287" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCCCKG-MZHYV6-3K4" x="2193" y="1606" width="189" height="70" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCGY2L-X22GQ1-3SS" x="3926" y="1814" width="333" height="69" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC424Z-L3VG4B-WQ" x="2617" y="1688" width="102" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KC586Q-2CXTKQZ-XW" x="2910" y="1250" width="191" height="70" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCJYB7-1QCK51J-3YB" x="3547" y="1339" width="244" height="70" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KBCV3Y-21DBRD8-8M" x="3070" y="1544" width="99" height="32" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                background-image-style="full" border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="217KCGQFG-1FG038B-3RQ" x="4011" y="1562" width="430" height="50" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="217KCGY2P-14KM893-3SW" x="3685" y="1758" width="58" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KCCNKD-10FTLV3-3L9" x="2492" y="1759" width="70" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KCCCKJ-19BD3CZ-3K7" x="2483" y="1668" width="52" height="13" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KCF995-232YD6D-3P0" x="2626" y="1825" width="149" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KC304V-NM2TZ1-T7" x="3088" y="1462" width="62" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KC586R-1V2V8XR-XZ" x="2876" y="1379" width="74" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KCGH5V-1GDNBSK-3QP" x="3527" y="1585" width="56" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KCJ46X-J1F6BF-3WD" x="3562" y="1833" width="46" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KCGQFJ-27PX56X-3RT" x="3685" y="1687" width="52" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KC7QRD-1X7WBGS-121" x="3049" y="1805" width="44" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KCH7JB-SJVK5Q-3TZ" x="3389" y="1828" width="62" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KC5K6H-Q48KPZ-ZR" x="2699" y="1514" width="116" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KC7J5G-150SHTC-110" x="2950" y="1784" width="38" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KC7XJ4-1P3RFQ8-131" x="3155" y="1795" width="49" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="217KC5FXD-2C247N8-YZ" x="2685" y="1408" width="158" height="14" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0"
+                background-image-style="full" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="217KDXPCG-1XPSYK5-62K" from-pos="center" to-pos="center" color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KDTGQX-1HDS261-5ZY" from-pos="center" to-pos="center" color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCH7JC-1SK6KQZ-3V2" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC7QRF-1YL70V2-129" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCCNKF-106X1FW-3LK" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KBGSMH-CKV9Y5-LC" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KBGZ6P-36KPKC-MF" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC7QRF-88RG3K-124" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KDWZBN-JGK1Q3-61Q" from-pos="center" to-pos="center" color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KDVVHJ-JG5D8Q-618" from-pos="center" to-pos="center" color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC7XJ5-1NH4L4C-139" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC4251-TV92ZJ-WT" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC5FXF-1B5YQH-Z7" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC5K6J-25ZWVPB-ZV" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC586S-5FXH7S-Y8" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCGH5X-1Y2YWCC-3QZ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCJ46Y-JY34M8-3WN" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCF996-1BF6KJV-3P8" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCH7JC-20XWCF7-3V7" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KDXBFG-18RX6QD-626" from-pos="center" to-pos="right" color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KBGX7Q-13KF8FP-LY" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCGH5W-17VQM4S-3QS" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC7J5H-7N0GTB-119" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC586S-L9RFJZ-Y2" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KDSV4D-1VRQSG2-5V6" from-pos="center" to-pos="center" color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC304W-TLXC4N-TJ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCJYB9-Z0STS8-3YF" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCCCKK-BC4MWR-3KJ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCCCKK-1CPH9JG-3KB" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCGQFK-2C4L9KM-3S2" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC304W-1Y0SHK-TC" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC3BBZ-2CZWKGH-VD" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCGY2Q-1NCZR4C-3T4" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCLZYC-ZGS2C1-44S" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KDV5HZ-XQL187-60B" from-pos="center" to-pos="left" color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC5K6J-BX9B1R-100" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCCNKF-1HNV9QF-3LD" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC5FXF-1WD07QV-Z2" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KDHPWF-4TGYQS-5JX" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCGY2P-L2575N-3SZ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCF996-102Q12Y-3P3" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC7XJ4-239MJ6Z-134" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCJ46Y-TV2QTN-3WH" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KC7J5H-14PLNBV-113" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="217KCGQFK-R57BN0-3RX" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="13,13,11,255" image-style="not-drawn" image-top-left="0,0"/>
+                <concept-style font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" background-image-style="full" border-color="79,78,10,255" border-style="solid"
+                    border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,255" border-style="none"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255" border-style="solid" border-thickness="2"
+                    border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle"
+                    text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="dotted" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="217KBCB8Y-23YST96-8D">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

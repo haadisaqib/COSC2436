@@ -1,0 +1,28 @@
+Name: Combinations Count
+Time limit: 1.00 s
+Memory limit: 512 MB
+Problem Statement
+
+Given two integers nn and kk, compute the binomial coefficient C(n,k)C(n,k), which represents the number of ways to choose kk elements from nn without repetition.
+Input
+
+    The only line contains two integers n,kn,k.
+
+Output
+
+    Print the value of C(n,k)C(n,k).
+
+Constraints
+
+    1≤k≤n≤10001≤k≤n≤1000
+
+Example
+
+Input:
+
+5 2
+
+Output:
+
+10
+

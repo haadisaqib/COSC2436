@@ -1,0 +1,10 @@
+Add(5)
+Add(15)
+Add(25)
+Size
+Capacity
+Print
+Delete(15)
+Print
+Add(35)
+Print

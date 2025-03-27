@@ -1,0 +1,13 @@
+Add(1)
+Add(2)
+Add(3)
+Add(4)
+Add(5)
+Size
+Capacity
+Print
+Delete(3)
+Delete(5)
+Size
+Capacity
+Print

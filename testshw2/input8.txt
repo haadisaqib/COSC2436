@@ -1,0 +1,6 @@
+AddSong(A, 4, False)
+AddSong(B, 5, False)
+AddSong(C, 3, True)
+AddSong(D, 6, False)
+AddSong(E, 2, True)
+CreateSmartPlaylist(10)

@@ -1,0 +1,12 @@
+Add(100)
+Add(200)
+Capacity
+Size
+Print
+Delete(300)
+Print
+Add(400)
+Add(500)
+Size
+Capacity
+Print

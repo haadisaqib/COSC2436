@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>CMAP1</dc:title>
+        <dc:creator>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>University of Houston</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>University of Houston</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>University of Houston</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2025-01-21T19:46:41-06:00</dcterms:created>
+        <dcterms:modified>2025-01-24T13:12:36-06:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:extent>8237 bytes</dc:extent>
+        <dc:source>cmap:2141796QW-W5N53D-1:2141797L9-HTFW22-Z:214QRHDZH-1WG7159-7Q</dc:source>
+    </res-meta>
+    <map width="1420" height="698">
+        <concept-list>
+            <concept id="214X9HVY6-1M4RH25-1R1" label="Fix size at compile time &#xa;(for static arr)"/>
+            <concept id="214XLTBKQ-MV39M1-9S" label="int arr[3] = {5,9,1};&#xa;int* p = arr;&#xa;for(int i = 0; i &lt;= 3; i++) {&#xa;cout &lt;&lt; p[i] &lt;&lt; endl;&#xa;}"/>
+            <concept id="214X8NBLZ-28HTCLW-JC" label="How?"/>
+            <concept id="214R7KDFS-Z4HDRF-GW" label="What?"/>
+            <concept id="214QRJSDF-VNQ997-F0" label="Arrays Cmap"/>
+            <concept id="214XB2LGF-BGF916-3BZ" label="Individual data item in the array"/>
+            <concept id="214X8ZBTZ-30J9PT-RS" label="Collection of same data types in contiguous memory"/>
+            <concept id="214X8LR49-1BW2LGZ-DR" label="why?"/>
+            <concept id="214X9MF78-B26B53-225" label="Fixed Data types"/>
+            <concept id="214X8MNZC-13MVZ5Z-HJ" label="when?"/>
+            <concept id="214X98YLJ-10WJGHG-1G4" label="zero-based indexing &#xd;ex: arr[0] is first element"/>
+            <concept id="214XXM09Z-ZXV9Q4-LJ" label="Valid range of indicies for accessing an element"/>
+            <concept id="214XCQP3P-D1LTG4-50N" label="Data storage, Matrix operations, buffers, etc"/>
+            <concept id="214XB5XRK-ZZH808-3MH" label="Position of an element (starts from 0)"/>
+            <concept id="214XB1CC8-13ZBQ4T-36V" label="terminology "/>
+            <concept id="214XB8Z7Y-29QK0XH-3SH" label="Pros: &#xd;- search by index O(1)&#xa;- contigous memory minimizes overhead&#xa;- easy to iterate&#xa;- overall simple"/>
+            <concept id="214XB9S90-1N5Y83J-3YT" label="Cons: &#xa;- must be of same type&#xa;- Insertion/deletion is O(n) because of shifting elements&#xa;- search by value is O(n) &#xa;- overall not fast operations"/>
+            <concept id="214X95R9P-246DLBH-146" label="- There is a collection of data with same types.&#xa;- fixed size data&#xa;- minimal memory overhead&#xa;- multidimensional data (matrix)&#xa;- fast access (by index)"/>
+            <concept id="214XMHH0J-17L833S-27L" label="- allocates a block of memory at compile time&#xa;- arr[i] == *(arr + i)"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="214XCQP3Q-256TJYF-50R" label="Where?"/>
+            <linking-phrase id="214XB2LGG-4SJKN8-3C2" label="Elements"/>
+            <linking-phrase id="214XLTBKT-QQDT9Y-9W" label="EX: to initilize then index"/>
+            <linking-phrase id="214XB5XRL-68PJGH-3ML" label="index"/>
+            <linking-phrase id="214XXM0B2-1ZW9TV3-LM" label="Bounds"/>
+            <linking-phrase id="214X8ZBV2-1H5RBL5-RW" label="Definition"/>
+            <linking-phrase id="214X95R9Q-8QLBY4-149" label="Use when..."/>
+            <linking-phrase id="214XMHH0K-23GFXCG-27P" label="under the hood "/>
+            <linking-phrase id="214R7KDFW-6HLZQJ-GZ" label="entails"/>
+            <linking-phrase id="214XB8Z80-B74J0-3SL" label="pros/cons"/>
+            <linking-phrase id="214X98YLK-24PWDNZ-1G7" label="Principles"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="214XB8Z80-25CSH6G-3SP" from-id="214X8LR49-1BW2LGZ-DR" to-id="214XB8Z80-B74J0-3SL"/>
+            <connection id="214XXM0B4-SYZ4QL-LQ" from-id="214XB1CC8-13ZBQ4T-36V" to-id="214XXM0B2-1ZW9TV3-LM"/>
+            <connection id="214XB5XRM-44CRD8-3MP" from-id="214XB1CC8-13ZBQ4T-36V" to-id="214XB5XRL-68PJGH-3ML"/>
+            <connection id="214XCQP3Q-1BDQGXG-50V" from-id="214X8MNZC-13MVZ5Z-HJ" to-id="214XCQP3Q-256TJYF-50R"/>
+            <connection id="214X95R9R-1R38HV8-14D" from-id="214X8MNZC-13MVZ5Z-HJ" to-id="214X95R9Q-8QLBY4-149"/>
+            <connection id="214XB9S91-16DK4GR-3YX" from-id="214XB8Z80-B74J0-3SL" to-id="214XB9S90-1N5Y83J-3YT"/>
+            <connection id="214X9MF79-NTBY2H-228" from-id="214X98YLK-24PWDNZ-1G7" to-id="214X9MF78-B26B53-225"/>
+            <connection id="214X8ZBV3-1DDVL9B-S5" from-id="214X8ZBV2-1H5RBL5-RW" to-id="214X8ZBTZ-30J9PT-RS"/>
+            <connection id="214XMHH0L-24PGH5W-27Y" from-id="214XMHH0K-23GFXCG-27P" to-id="214XMHH0J-17L833S-27L"/>
+            <connection id="214XLTBKY-25N87MM-C4" from-id="214XLTBKT-QQDT9Y-9W" to-id="214XLTBKQ-MV39M1-9S"/>
+            <connection id="214XB2LGH-2CW8M1F-3C5" from-id="214XB1CC8-13ZBQ4T-36V" to-id="214XB2LGG-4SJKN8-3C2"/>
+            <connection id="214X9HVY8-W1RMQV-1R4" from-id="214X98YLK-24PWDNZ-1G7" to-id="214X9HVY6-1M4RH25-1R1"/>
+            <connection id="214R7KDFX-1M4FSSG-H9" from-id="214R7KDFW-6HLZQJ-GZ" to-id="214R7KDFS-Z4HDRF-GW"/>
+            <connection id="214XB2LGH-1PDJBK9-3CC" from-id="214XB2LGG-4SJKN8-3C2" to-id="214XB2LGF-BGF916-3BZ"/>
+            <connection id="214XMHH0L-FF4V0D-27S" from-id="214X8NBLZ-28HTCLW-JC" to-id="214XMHH0K-23GFXCG-27P"/>
+            <connection id="214X8LR4F-13PS94M-DV" from-id="214R7KDFW-6HLZQJ-GZ" to-id="214X8LR49-1BW2LGZ-DR"/>
+            <connection id="214XB1CC9-1T4LGX3-36Y" from-id="214X8ZBV2-1H5RBL5-RW" to-id="214XB1CC8-13ZBQ4T-36V"/>
+            <connection id="214X98YLL-8NTYFM-1GB" from-id="214R7KDFS-Z4HDRF-GW" to-id="214X98YLK-24PWDNZ-1G7"/>
+            <connection id="214X8ZBV3-L0YQR8-RZ" from-id="214R7KDFS-Z4HDRF-GW" to-id="214X8ZBV2-1H5RBL5-RW"/>
+            <connection id="214R7KDFX-9VDGX7-H3" from-id="214QRJSDF-VNQ997-F0" to-id="214R7KDFW-6HLZQJ-GZ"/>
+            <connection id="214X95R9R-1250547-14L" from-id="214X95R9Q-8QLBY4-149" to-id="214X95R9P-246DLBH-146"/>
+            <connection id="214X98YLL-1PK1977-1GH" from-id="214X98YLK-24PWDNZ-1G7" to-id="214X98YLJ-10WJGHG-1G4"/>
+            <connection id="214XCQP3R-FTSSX1-510" from-id="214XCQP3Q-256TJYF-50R" to-id="214XCQP3P-D1LTG4-50N"/>
+            <connection id="214XB8Z81-29N1292-3SW" from-id="214XB8Z80-B74J0-3SL" to-id="214XB8Z7Y-29QK0XH-3SH"/>
+            <connection id="214XLTBKX-QD05JV-9Z" from-id="214X8NBLZ-28HTCLW-JC" to-id="214XLTBKT-QQDT9Y-9W"/>
+            <connection id="214XB5XRM-13H14M2-3MV" from-id="214XB5XRL-68PJGH-3ML" to-id="214XB5XRK-ZZH808-3MH"/>
+            <connection id="214X8MNZG-LS1XDB-HM" from-id="214R7KDFW-6HLZQJ-GZ" to-id="214X8MNZC-13MVZ5Z-HJ"/>
+            <connection id="214X8NBM2-248NSKJ-JG" from-id="214R7KDFW-6HLZQJ-GZ" to-id="214X8NBLZ-28HTCLW-JC"/>
+            <connection id="214XXM0B5-16KHXPK-MZ" from-id="214XXM0B2-1ZW9TV3-LM" to-id="214XXM09Z-ZXV9Q4-LJ"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="214X9HVY6-1M4RH25-1R1" x="1292" y="613" width="150" height="43"/>
+            <concept-appearance id="214XLTBKQ-MV39M1-9S" x="1012" y="136" width="148" height="92"/>
+            <concept-appearance id="214X8NBLZ-28HTCLW-JC" x="1102" y="287" width="47" height="25"/>
+            <concept-appearance id="214R7KDFS-Z4HDRF-GW" x="922" y="441" width="51" height="25"/>
+            <concept-appearance id="214QRJSDF-VNQ997-F0" x="826" y="225" width="88" height="28"/>
+            <concept-appearance id="214XB2LGF-BGF916-3BZ" x="646" y="722" width="196" height="28"/>
+            <concept-appearance id="214X8ZBTZ-30J9PT-RS" x="551" y="599" width="312" height="28"/>
+            <concept-appearance id="214X8LR49-1BW2LGZ-DR" x="1082" y="406" width="44" height="28"/>
+            <concept-appearance id="214X9MF78-B26B53-225" x="1257" y="493" width="109" height="28"/>
+            <concept-appearance id="214X8MNZC-13MVZ5Z-HJ" x="759" y="343" width="52" height="25"/>
+            <concept-appearance id="214X98YLJ-10WJGHG-1G4" x="1026" y="618" width="154" height="43"/>
+            <concept-appearance id="214XXM09Z-ZXV9Q4-LJ" x="1109" y="742" width="283" height="28"/>
+            <concept-appearance id="214XCQP3P-D1LTG4-50N" x="378" y="365" width="266" height="28"/>
+            <concept-appearance id="214XB5XRK-ZZH808-3MH" x="853" y="772" width="225" height="27"/>
+            <concept-appearance id="214XB1CC8-13ZBQ4T-36V" x="790" y="628" width="88" height="28"/>
+            <concept-appearance id="214XB8Z7Y-29QK0XH-3SH" x="1374" y="272" width="246" height="93"/>
+            <concept-appearance id="214XB9S90-1N5Y83J-3YT" x="1498" y="425" width="329" height="93"/>
+            <concept-appearance id="214X95R9P-246DLBH-146" x="525" y="470" width="275" height="93"/>
+            <concept-appearance id="214XMHH0J-17L833S-27L" x="1247" y="160" width="271" height="43"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="214XCQP3Q-256TJYF-50R" x="650" y="317" width="44" height="11"/>
+            <linking-phrase-appearance id="214XB2LGG-4SJKN8-3C2" x="723" y="668" width="54" height="11"/>
+            <linking-phrase-appearance id="214XLTBKT-QQDT9Y-9W" x="1039" y="247" width="139" height="11"/>
+            <linking-phrase-appearance id="214XB5XRL-68PJGH-3ML" x="817" y="682" width="33" height="11"/>
+            <linking-phrase-appearance id="214XXM0B2-1ZW9TV3-LM" x="949" y="685" width="45" height="11"/>
+            <linking-phrase-appearance id="214X8ZBV2-1H5RBL5-RW" x="828" y="483" width="57" height="11"/>
+            <linking-phrase-appearance id="214X95R9Q-8QLBY4-149" x="690" y="378" width="67" height="11"/>
+            <linking-phrase-appearance id="214XMHH0K-23GFXCG-27P" x="1174" y="223" width="93" height="11"/>
+            <linking-phrase-appearance id="214R7KDFW-6HLZQJ-GZ" x="923" y="394" width="39" height="11"/>
+            <linking-phrase-appearance id="214XB8Z80-B74J0-3SL" x="1173" y="389" width="58" height="13"/>
+            <linking-phrase-appearance id="214X98YLK-24PWDNZ-1G7" x="992" y="499" width="57" height="14"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="214XB8Z80-25CSH6G-3SP" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XXM0B4-SYZ4QL-LQ" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XB5XRM-44CRD8-3MP" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XCQP3Q-1BDQGXG-50V" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214X95R9R-1R38HV8-14D" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214XB9S91-16DK4GR-3YX" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214X9MF79-NTBY2H-228" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214X8ZBV3-1DDVL9B-S5" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214XMHH0L-24PGH5W-27Y" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XLTBKY-25N87MM-C4" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XB2LGH-2CW8M1F-3C5" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214X9HVY8-W1RMQV-1R4" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214R7KDFX-1M4FSSG-H9" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214XB2LGH-1PDJBK9-3CC" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XMHH0L-FF4V0D-27S" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214X8LR4F-13PS94M-DV" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214XB1CC9-1T4LGX3-36Y" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214X98YLL-8NTYFM-1GB" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214X8ZBV3-L0YQR8-RZ" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214R7KDFX-9VDGX7-H3" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214X95R9R-1250547-14L" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214X98YLL-1PK1977-1GH" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214XCQP3R-FTSSX1-510" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XB8Z81-29N1292-3SW" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XLTBKX-QD05JV-9Z" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214XB5XRM-13H14M2-3MV" from-pos="center" to-pos="center" style="solid"/>
+            <connection-appearance id="214X8MNZG-LS1XDB-HM" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214X8NBM2-248NSKJ-JG" from-pos="center" to-pos="center"/>
+            <connection-appearance id="214XXM0B5-16KHXPK-MZ" from-pos="center" to-pos="center" style="solid"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <connection-style style="solid"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="214QRHDZH-1WG7159-7Q">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

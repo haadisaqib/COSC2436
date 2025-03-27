@@ -1,0 +1,27 @@
+Name: Recursive Sum of Digits
+Time limit: 1.00 s
+Memory limit: 512 MB
+Problem Statement
+
+Write a recursive function to compute the sum of digits of a given number nn.
+Input
+
+    The only input is an integer nn.
+
+Output
+
+    Print the sum of digits of nn.
+
+Constraints
+
+    1≤n≤10181≤n≤1018
+
+Example
+
+Input:
+
+12345
+
+Output:
+
+15

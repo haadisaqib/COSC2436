@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "stack": "cpp",
+        "regex": "cpp",
+        "string": "cpp",
+        "queue": "cpp",
+        "fstream": "cpp",
+        "tuple": "cpp"
+    }
+}

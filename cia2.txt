@@ -1,0 +1,98 @@
+1. Which statement best describes how recursion works in a C++ function?  
+*a) Recursion is a technique in which a function calls itself until a base condition is reached, breaking down the problem into smaller subproblems.  
+b) Recursion is a mechanism that automatically implements infinite loops in a program, eliminating the need for conditional statements.  
+c) Recursion is the only method for iterating through large data sets, as loops are not allowed in modern C++ compilers.  
+d) Recursion guarantees constant time complexity by repeatedly creating and destroying function stacks.
+
+  
+2. Open addressing in a hash table requires storing linked lists at each index to resolve collisions.  
+a) True  
+*b) False
+
+  
+3. Complete the function to reverse a queue using a stack:  
+* Use a stack to pop all elements from the queue, then enqueue those elements back to the queue.
+
+  
+4. In a binary tree, each node can have up to how many children?  
+* 2
+
+  
+5. When building a max-heap from an unsorted array, which step is performed first?  
+a) Swap the first and last elements of the array  
+*b) Heapify from the lowest non-leaf node up to the root  
+c) Insert elements one by one into an initially empty heap  
+d) Perform an in-order traversal to locate parent nodes
+
+  
+6. In evaluating a postfix expression with a stack, we always pop exactly two operands before applying an operator.  
+*a) True  
+b) False
+
+  
+7. Shell sort can be seen as a generalization of which simpler sorting algorithm?  
+* Insertion Sort
+
+  
+8. Direct hashing uses the ________ itself as the address in the hash table.  
+* key
+
+  
+9. Which of the following steps is NOT part of a typical Merge Sort algorithm in C++?  
+a) Recursively split the array into halves until subarrays contain one element or no element.  
+*b) Sort each smaller subarray by only swapping adjacent elements in a loop.  
+c) Merge the sorted subarrays by comparing elements and building a new sorted sequence.  
+d) Recursively combine these subarrays until the entire array is sorted.
+
+  
+10. In linear probing, if the initial position h(key) is taken, the next position to check is computed as h(key) + ________.  
+* 1
+
+  
+11. A priority queue that uses a min-heap will always serve the element with the highest value first.  
+a) True  
+*b) False
+
+  
+12. Suppose the primary hash is h1(key). Write the secondary hash h2(key) = (prime number < tableSize) - (key % prime number) for double hashing, where tableSize is the size of the hash table.  
+* (prime number < tableSize) - (key % prime number)
+
+  
+13. Which of the following best describes the average time complexity of quick sort?  
+a) O(n)  
+*b) O(n * log n)  
+c) O(n^2)  
+d) O(log n)
+
+  
+14. In a max-heap’s heapify process, if a node violates the max-heap property, it is swapped with its larger child and heapify continues recursively.  
+*a) True  
+b) False
+
+  
+15. Radix sort processes integers digit by digit, beginning with the ________ significant digit.  
+* least
+
+  
+16. When inserting the keys 5, 2, 7 into an empty AVL tree (in that order), the root node after all insertions is ________.  
+* 5
+
+  
+17. In an in-order traversal (Left, Root, Right), which node is visited last for a non-empty binary tree?  
+a) The root node  
+b) The leftmost node  
+*c) The right subtree’s rightmost node  
+d) The left subtree’s leftmost node
+
+  
+18. In bucket sort, elements are separated into different buckets and then ________ within each bucket before recombining them.  
+* sorted
+
+  
+19. The balance factor of an AVL node is defined as (height of right subtree) – (height of left subtree).  
+a) True  
+*b) False
+
+  
+20. In a recursive function to find the height of a binary tree, the base case occurs when the current node is ________.  
+* bode left and right are nullptr

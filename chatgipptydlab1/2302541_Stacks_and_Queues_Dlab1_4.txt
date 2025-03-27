@@ -1,0 +1,35 @@
+Name: Balanced Parantheses
+Time limit: 1.00 s
+Memory limit: 512 MB
+Problem Statement
+
+Given a string consisting of (, ), {, }, [ and ], determine if it is balanced. A string is balanced if every opening bracket has a matching closing bracket in the correct order.
+Input
+
+    A single string ss containing at most 105105 characters.
+
+Output
+
+    Print "YES" if the string is balanced, otherwise print "NO".
+
+Constraints
+
+    The input string contains only (, ), {, }, [ and ].
+
+Example
+
+Input:
+
+{[()]}
+
+Output:
+
+YES
+
+Input:
+
+{[(])}
+
+Output:
+
+NO
