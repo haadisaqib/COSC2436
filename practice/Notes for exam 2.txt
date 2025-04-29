@@ -1,0 +1,14 @@
+Notes for exam 2
+
+- Stack questions are hard
+- Types of questions:
+  - infix to postfix
+  - postfix to infix
+  - palindrome
+  - stack implementation
+  - etc 
+
+- Queue questions:
+  - 
+
+

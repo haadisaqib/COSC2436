@@ -29,8 +29,6 @@ void operation(stack<int>& s, queue<int>& q) {
 
 
 
-
-
 int main() {
     return 0;
 }

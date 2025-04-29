@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>CMAP5</dc:title>
+        <dc:creator>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>UH</vcard:Orgname>
+            </vcard:ORG>
+        </dc:creator>
+        <dc:contributor>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>UH</vcard:Orgname>
+            </vcard:ORG>
+        </dc:contributor>
+        <dcterms:rightsHolder>
+            <vcard:FN>haadi</vcard:FN>
+            <vcard:EMAIL>haadi.saqib@gmail.com</vcard:EMAIL>
+            <vcard:ORG>
+                <vcard:Orgname>UH</vcard:Orgname>
+            </vcard:ORG>
+        </dcterms:rightsHolder>
+        <dcterms:created>2025-04-02T23:20:19-05:00</dcterms:created>
+        <dcterms:modified>2025-04-02T23:20:19-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:extent>7446 bytes</dc:extent>
+        <dc:source>cmap:21B8RWXHM-23SJNV0-1:21B8RWZ2T-1MVLF0T-Z:21CNSKHVH-1MPYM9L-8S</dc:source>
+    </res-meta>
+    <map width="1922" height="893">
+        <concept-list>
+            <concept id="21CNSNH4K-11BT6MC-ZH" label="Algorithms"/>
+            <concept id="21CNSVK3J-10NKC1C-1NS" label="template &lt;typename T>&#xa;size_t sizeImpl(const StackData&lt;T>* stack) {&#xa;    size_t current_size = stack->items.size();&#xa;    std::cout &lt;&lt; &quot;Current Size (fp): &quot; &lt;&lt; current_size &lt;&lt; std::endl;&#xa;    return current_size;&#xa;}"/>
+            <concept id="21CNSN619-1RJ9CMD-YC" label="An abstract data type representing a collection of elements.&#xa; It follows a specific order for adding and removing elements.&#xa; Often visualized as a physical stack (like plates or books)"/>
+            <concept id="21CNT2QNM-B862Y1-1SV" label="template &lt;typename T>&#xa;struct StackData {&#xa;    std::vector&lt;T> items;&#xa;    size_t max_size;&#xa;};"/>
+            <concept id="21CNTBVWH-1CRB5RW-1VJ" label="template &lt;typename T>&#xa;bool isPalindromeImpl(const StackData&lt;T>* stack) {&#xa;    std::vector&lt;T> temp = stack->items;&#xa;    std::vector&lt;T> reversed_temp = temp;&#xa;    std::reverse(reversed_temp.begin(), reversed_temp.end());&#xa;    return temp == reversed_temp;&#xa;}"/>
+            <concept id="21CNSMVF1-2BL8KP2-X9" label="LIFO (Last-In, First-Out): This is the fundamental principle.&#xa; The element most recently added &#xa;to the stack is the first one to be removed."/>
+            <concept id="21CNSQ0MV-15C45PL-134" label="bool isEmptyImpl(const StackData&lt;T>* stack) {&#xa;    return stack->items.empty();&#xa;}"/>
+            <concept id="21CNTCR01-3B9KM8-1XJ" label="template &lt;typename T>&#xa;void reverseImpl(StackData&lt;T>* stack) {&#xa;    std::reverse(stack->items.begin(), stack->items.end());&#xa;    std::cout &lt;&lt; &quot;Stack reversed (fp).&quot; &lt;&lt; std::endl;&#xa;}"/>
+            <concept id="21CNSPP6J-Y6L2F-10S" label="template &lt;typename T>&#xa;void pushImpl(StackData&lt;T>* stack, const T&amp; item) {&#xa;    if (isFullImpl(stack)) {&#xa;        throw std::overflow_error(&quot;Cannot push onto a full stack.&quot;);&#xa;    }&#xa;    stack->items.push_back(item);&#xa;    std::cout &lt;&lt; &quot;Pushed (fp): &quot; &lt;&lt; item &lt;&lt; std::endl;&#xa;}"/>
+            <concept id="21CNSPT04-BQ4JJF-11L" label="template &lt;typename T>&#xa;T popImpl(StackData&lt;T>* stack) {&#xa;    if (isEmptyImpl(stack)) {&#xa;        throw std::underflow_error(&quot;Cannot pop from an empty stack.&quot;);&#xa;    }&#xa;    T topItem = stack->items.back();&#xa;    stack->items.pop_back();&#xa;    std::cout &lt;&lt; &quot;Popped (fp): &quot; &lt;&lt; topItem &lt;&lt; std::endl;&#xa;    return topItem;&#xa;}"/>
+            <concept id="21CNSMDQ5-271CQWP-W9" label="Concept"/>
+            <concept id="21CNSKQCJ-1X0NPJZ-90" label="Stacks"/>
+            <concept id="21CNSPWP3-MXPT8V-12C" label="template &lt;typename T>&#xa;const T&amp; peekImpl(const StackData&lt;T>* stack) {&#xa;    if (isEmptyImpl(stack)) {&#xa;        throw std::underflow_error(&quot;Cannot peek into an empty stack.&quot;);&#xa;    }&#xa;    const T&amp; topItem = stack->items.back();&#xa;    std::cout &lt;&lt; &quot;Peeked (fp): &quot; &lt;&lt; topItem &lt;&lt; std::endl;&#xa;    return topItem;&#xa;}"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="21CNSPP6P-1Z2PRQ5-10W" label="Push"/>
+            <linking-phrase id="21CNSN61G-1G7T4PS-YG" label="definition"/>
+            <linking-phrase id="21CNSMVF3-1WBZ6ZQ-XD" label="order"/>
+            <linking-phrase id="21CNSVK3N-RSV660-1NW" label="Size"/>
+            <linking-phrase id="21CNSPWP7-26PSS9Q-12G" label="Peek"/>
+            <linking-phrase id="21CNSPT09-23037YD-11P" label="Pop"/>
+            <linking-phrase id="21CNSQ0N0-1YPYN53-137" label="IsEmpty"/>
+            <linking-phrase id="21CNTBVWM-2DL84VV-1VM" label="bool Palindrome"/>
+            <linking-phrase id="21CNTCR05-6RG9H5-1XM" label="void reverse"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="21CNTBVWM-4Y5YJP-1VQ" from-id="21CNSNH4K-11BT6MC-ZH" to-id="21CNTBVWM-2DL84VV-1VM"/>
+            <connection id="21CNSVK3Q-23WT1PM-1P4" from-id="21CNSVK3N-RSV660-1NW" to-id="21CNSVK3J-10NKC1C-1NS"/>
+            <connection id="21CNSN61J-1MLDFX0-YQ" from-id="21CNSN61G-1G7T4PS-YG" to-id="21CNSN619-1RJ9CMD-YC"/>
+            <connection id="21CNSQ0N1-LT51KV-13B" from-id="21CNSNH4K-11BT6MC-ZH" to-id="21CNSQ0N0-1YPYN53-137"/>
+            <connection id="21CNT2QNR-1NYDPGG-1SY" from-id="21CNSN61G-1G7T4PS-YG" to-id="21CNT2QNM-B862Y1-1SV"/>
+            <connection id="21CNSPT09-26NNN89-11S" from-id="21CNSNH4K-11BT6MC-ZH" to-id="21CNSPT09-23037YD-11P"/>
+            <connection id="21CNSVK3P-15KTM57-1NZ" from-id="21CNSNH4K-11BT6MC-ZH" to-id="21CNSVK3N-RSV660-1NW"/>
+            <connection id="21CNSMDQB-DNS9H4-WD" from-id="21CNSKQCJ-1X0NPJZ-90" to-id="21CNSMDQ5-271CQWP-W9"/>
+            <connection id="21CNSN61H-67NZV9-YK" from-id="21CNSMDQ5-271CQWP-W9" to-id="21CNSN61G-1G7T4PS-YG"/>
+            <connection id="21CNTCR07-G7NBQP-1XW" from-id="21CNTCR05-6RG9H5-1XM" to-id="21CNTCR01-3B9KM8-1XJ"/>
+            <connection id="21CNSNH4Q-110YB98-ZL" from-id="21CNSKQCJ-1X0NPJZ-90" to-id="21CNSNH4K-11BT6MC-ZH"/>
+            <connection id="21CNTCR07-2W0F4H-1XQ" from-id="21CNSNH4K-11BT6MC-ZH" to-id="21CNTCR05-6RG9H5-1XM"/>
+            <connection id="21CNSMVF4-104RMGN-XH" from-id="21CNSMDQ5-271CQWP-W9" to-id="21CNSMVF3-1WBZ6ZQ-XD"/>
+            <connection id="21CNSMVF4-1JYJJ6M-XP" from-id="21CNSMVF3-1WBZ6ZQ-XD" to-id="21CNSMVF1-2BL8KP2-X9"/>
+            <connection id="21CNSPT0B-1XKRRQ2-11Y" from-id="21CNSPT09-23037YD-11P" to-id="21CNSPT04-BQ4JJF-11L"/>
+            <connection id="21CNSQ0N1-6H14BK-13H" from-id="21CNSQ0N0-1YPYN53-137" to-id="21CNSQ0MV-15C45PL-134"/>
+            <connection id="21CNSPWP7-1V83CB7-12K" from-id="21CNSNH4K-11BT6MC-ZH" to-id="21CNSPWP7-26PSS9Q-12G"/>
+            <connection id="21CNTBVWN-16LCXKL-1VW" from-id="21CNTBVWM-2DL84VV-1VM" to-id="21CNTBVWH-1CRB5RW-1VJ"/>
+            <connection id="21CNSPWP7-19T6R45-12Q" from-id="21CNSPWP7-26PSS9Q-12G" to-id="21CNSPWP3-MXPT8V-12C"/>
+            <connection id="21CNSPP6P-1NJSXWJ-10Z" from-id="21CNSNH4K-11BT6MC-ZH" to-id="21CNSPP6P-1Z2PRQ5-10W"/>
+            <connection id="21CNSPP6Q-5HZBS8-115" from-id="21CNSPP6P-1Z2PRQ5-10W" to-id="21CNSPP6J-Y6L2F-10S"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="21CNSNH4K-11BT6MC-ZH" x="1672" y="534" width="94" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSVK3J-10NKC1C-1NS" x="2005" y="361" width="419" height="122" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSN619-1RJ9CMD-YC" x="1241" y="854" width="420" height="70" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNT2QNM-B862Y1-1SV" x="1362" y="721" width="176" height="105" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNTBVWH-1CRB5RW-1VJ" x="1298" y="202" width="410" height="140" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSMVF1-2BL8KP2-X9" x="807" y="778" width="399" height="67" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSQ0MV-15C45PL-134" x="2220" y="485" width="325" height="69" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNTCR01-3B9KM8-1XJ" x="1779" y="191" width="383" height="105" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSPP6J-Y6L2F-10S" x="1702" y="920" width="433" height="158" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSPT04-BQ4JJF-11L" x="2243" y="926" width="466" height="193" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSMDQ5-271CQWP-W9" x="1121" y="602" width="75" height="35" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" border-color="79,78,10,255"
+                border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSKQCJ-1X0NPJZ-90" x="1113" y="426" width="60" height="28" font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255"
+                background-image-style="full" border-color="11,18,122,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <concept-appearance id="21CNSPWP3-MXPT8V-12C" x="2293" y="693" width="468" height="175" font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255"
+                border-color="79,78,10,255" border-style="solid" border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="21CNSPP6P-1Z2PRQ5-10W" x="1628" y="661" width="31" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNSN61G-1G7T4PS-YG" x="1178" y="720" width="61" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNSMVF3-1WBZ6ZQ-XD" x="990" y="669" width="35" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNSVK3N-RSV660-1NW" x="1781" y="470" width="25" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNSPWP7-26PSS9Q-12G" x="1870" y="619" width="31" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNSPT09-23037YD-11P" x="1854" y="710" width="25" height="13" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNSQ0N0-1YPYN53-137" x="1887" y="522" width="51" height="13" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNTBVWM-2DL84VV-1VM" x="1562" y="380" width="101" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+            <linking-phrase-appearance id="21CNTCR05-6RG9H5-1XM" x="1704" y="356" width="76" height="11" font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255"
+                border-style="none" border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="21CNTBVWM-4Y5YJP-1VQ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSVK3Q-23WT1PM-1P4" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSN61J-1MLDFX0-YQ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSQ0N1-LT51KV-13B" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNT2QNR-1NYDPGG-1SY" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSPT09-26NNN89-11S" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSVK3P-15KTM57-1NZ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSMDQB-DNS9H4-WD" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSN61H-67NZV9-YK" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNTCR07-G7NBQP-1XW" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSNH4Q-110YB98-ZL" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNTCR07-2W0F4H-1XQ" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSMVF4-104RMGN-XH" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSMVF4-1JYJJ6M-XP" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSPT0B-1XKRRQ2-11Y" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSQ0N1-6H14BK-13H" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSPWP7-1V83CB7-12K" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNTBVWN-16LCXKL-1VW" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSPWP7-19T6R45-12Q" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSPP6P-1NJSXWJ-10Z" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+            <connection-appearance id="21CNSPP6Q-5HZBS8-115" from-pos="center" to-pos="center" color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="13,13,11,255" image-style="not-drawn" image-top-left="0,0"/>
+                <concept-style font-name="Helvetica" font-size="13" font-style="bold" font-color="6,36,7,255" text-margin="4" background-color="237,237,211,255" background-image-style="full" border-color="79,78,10,255" border-style="solid"
+                    border-thickness="2" border-shape="rounded-rectangle" text-alignment="center" shadow-color="128,128,0,255" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,255" border-style="none"
+                    border-thickness="1" border-shape="rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-name="Arial" font-size="13" font-style="bold" font-color="255,255,255,255" text-margin="4" background-color="62,121,196,255" border-color="11,18,122,255" border-style="solid" border-thickness="2"
+                    border-shape="rounded-rectangle" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <linking-phrase-style font-name="Arial" font-size="12" font-style="bold" font-color="215,234,237,255" text-margin="1" background-color="0,0,255,0" border-color="0,0,0,255" border-style="none" border-thickness="1" border-shape="rectangle"
+                    text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"/>
+                <connection-style color="215,234,237,255" style="solid" thickness="1" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="21CNSKHVH-1MPYM9L-8S">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>
